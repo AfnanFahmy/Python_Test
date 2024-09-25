@@ -62,7 +62,8 @@ app.layout = html.Div([
             options=[{'label': i, 'value': i} for i in year_list],
             value=1980
         )),
-    html.Div([#TASK 2.3: Add a division for output display
+#TASK 2.3: Add a division for output display
+    html.Div([
     html.Div(id='output-container', className='output-container', style={'width': '100%','margin':'auto', 'display': 'inline-block'}),
     ])
 ])
